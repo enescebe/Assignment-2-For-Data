@@ -1,0 +1,36 @@
+##QUESTİON 1
+name = "Enes"
+print(f"Hello {name}, did you study your lesson today?")
+
+##QUESTİON 2
+person_name = "Enes"
+print(f"Lowercase: {name.lower()}")
+print(f"Uppercase: {name.upper()}")
+print(f"Title Case: {name.title()}")
+
+## QUESTİON 3
+
+quote = "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself."
+author = "Rumi"
+print(f"{author} once said, \"{quote}\"")
+
+##QUESTİON 4
+famous_person = ("Rumi")
+quote = "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself."
+message = f"{famous_person} once said, \"{quote}\""
+print(message)
+
+##QUESTİON 5
+
+person_name = ("\t  Enes Cebe\n")
+print("Original Name:")
+print(f"---{person_name}---")
+print("\nStripped Names:")
+print(f"Left Stripped: ---{person_name.lstrip()}---")
+print(f"Right Stripped: ---{person_name.rstrip()}---")
+print(f"Fully Stripped: ---{person_name.strip()}---")
+
+
+
+
+
